@@ -32,12 +32,26 @@ body {
     padding: 128px;
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 48px;
+    }
+}
+
 .contain {
     max-width: 500px;
 }
 
 .contact {
     margin-bottom: 48px;
+}
+
+.contact-item {
+    margin-bottom: 4px;
+}
+
+.contact-icon {
+    margin-right: 12px;
 }
 
 .job {
@@ -50,4 +64,10 @@ body {
     font-size: 48px;
     text-transform: uppercase;
     margin-bottom: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .name {
+        font-size: 36px;
+    }
 }
